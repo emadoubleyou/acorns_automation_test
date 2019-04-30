@@ -11,4 +11,4 @@ Feature: Perform a home search
     When I click the Apply Filters button
     Then I see homes less than or equal to "300000"
     And The homes have at least "3" bedrooms
-    And The homes have at least "9" bathrooms
+    And The homes have at least "2" bathrooms
